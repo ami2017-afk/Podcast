@@ -1,0 +1,68 @@
+body {
+    background-color: #ffffff;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .gradient-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #4CAF50, #2E8B57);
+  }
+  
+  form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: white;
+  }
+  
+  input[type="text"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #000000;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #1DB954;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-image: linear-gradient(to right, #4CAF50, #2E8B57);
+  }
+  

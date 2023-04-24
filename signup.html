@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Signup</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+		body {
+			background-color: #fff;
+			font-family: Montserrat, sans-serif;
+			color: #000000;
+		}
+		.user{
+			margin-left: 310px;
+
+		}
+
+		form {
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 10px;
+			width: 50%;
+			margin: 0 auto;
+			margin-top: 50px;
+		}
+
+		label {
+			font-weight: bold;
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		input[type="text"], input[type="password"],input[type="email"] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			background-color: #fff;
+			box-sizing: border-box;
+			border-radius: 5px ;
+			border: none;
+			border: 2px solid #000000;
+
+		}
+
+		button {
+			width: 100%;
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+
+		input[type="submit"]:hover {
+			background-image: linear-gradient(to right, #4CAF50, #2E8B57);
+		}
+	</style>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="/js/validation.js" defer></script>
+</head>
+<body>
+    
+    
+    <form action="process-signup.php" method="POST" id="signup" novalidate>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        
+        <div>
+            <label for="password_confirmation">Confirm Password</label>
+            <input type="password" id="password_confirmation" name="password_confirmation">
+        </div>
+        <br>
+        <button type="submit" style="color: aliceblue; background-image: linear-gradient(to right, #4CAF50, #2E8B57);">Sign up</button>
+    </form>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+

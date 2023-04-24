@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spotify Admin Panel</title>
+ <style>
+    body {
+    background-color: black;
+    color: #000000;
+    font-family: 'Montserrat, sans-serif';
+  }
+  h1{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat, sans-serif';
+  }
+  
+  .gradient-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #4CAF50, #2E8B57);
+  }
+  
+  form {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: white;
+  }
+  
+  input[type="text"], select {
+    width: 100%;
+    padding: 12px 20px;
+    color: black;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #000000;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid #000000;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #1DB954;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-image: linear-gradient(to right, #4CAF50, #2E8B57);
+    
+  }
+  
+  </style>
+</head>
+<body>
+  <h1>ADMIN FOR SPOTIFY PODCAST</h1>
+  <form method="post" action="add_podcast.php" enctype="multipart/form-data">
+    
+    <label for="podcast_name">Podcast Name:</label><br>
+    <input type="text" id="podcast_name" name="podcast_name" required><br>
+
+    <label for="podcast_description">Podcast Description:</label><br>
+    <textarea id="podcast_description" name="podcast_description" required></textarea><br>
+
+    <label for="podcast_category">Podcast Category:</label><br>
+    <select id="podcast_category" name="podcast_category" required>
+      <option value="Sports">Sports</option>
+      <option value="News">News</option>
+      <option value="Entertainment">Entertainment</option>
+    </select><br>
+
+    <label for="podcast_type">Podcast Type:</label><br>
+    <select id="podcast_type" name="podcast_type" required>
+      <option value="Audio">Audio</option>
+      <option value="Video">Video</option>
+    </select><br>
+
+    <label for="speaker">Speaker:</label><br>
+    <input type="text" id="speaker" name="speaker" required><br>
+
+    <label for="file">Podcast File:</label><br>
+    <input type="file" id="file" name="file" accept=".mp3, .mp4"><br>
+
+    <input type="submit" value="Submit" class="gradient-button">
+  </form>
+</body>
+</html>

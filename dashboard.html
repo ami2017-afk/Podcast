@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="podcast.css"> <!-- link to external CSS file -->
+</head>
+<body>
+
+  <div class="sidebar">
+    <div class="logo">
+      <a href="#">
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Logo" />
+      </a>
+    </div>
+    
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="fa fa-home"></span>
+            <span>Home</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <span class="fa fa-search"></span>
+            <span>Search</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <span class="fa fas fa-book"></span>
+            <span>Your Library</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="#">
+            <span class="fa fas fa-plus-square"></span>
+            <span>Create Playlist</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <span class="fa fas fa-heart"></span>
+            <span>Liked Songs</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="main-container">
+    <div class="topbar">
+      <div class="prev-next-buttons">
+        <button type="button" class="fa fas fa-chevron-left"></button>
+        <button type="button" class="fa fas fa-chevron-right"></button>
+      </div>
+      <div data-testid="topbar-content-wrapper" class="rovbQsmAS_mwvpKHaVhQ">
+        <div data-testid="topbar-content" class="qHWqOt_TYlFxiF0Dm2fD">
+          <div class="g3Xinb8x23n81ejvS9Uj"><form role="search">
+            <input class="Type__TypeElement-sc-goli3j-0 bNyYSN QO9loc33XC50mMRUCIvf" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="What do you want to listen to?" data-testid="search-input" data-encore-id="type" value="" style="color: rgb(0, 0, 0);" fdprocessedid="qol7wf">
+          </form>
+          <div class="t2K4_iLmAyDtH7mcT5Wy">
+            <span class="H6jh9Xd7DNOq3NsLDmCB">
+              <svg role="img" height="24" width="24" aria-hidden="true" class="Svg-sc-ytk21e-0 gQUQL mOLTJ2mxkzHJj6Y9_na_" viewBox="0 0 24 24" data-encore-id="icon">
+                <path d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 1 0 1.414-1.414l-4.344-4.344a9.157 9.157 0 0 0 2.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z">
+
+      </path></svg></span></div></div></div></div>
+
+      <!--<div class="Search">
+        <form role="search">
+          <input type="text" placeholder="Search for artists, songs, or podcasts" />
+          <button type="submit" class="fa fa-search"></button>
+        </form>
+      </div>-->
+
+
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="https://www.spotify.com/in-en/download/windows/">Download</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+        
+      <div class="spotify-playlists">
+      <h2>Spotify Podcasts</h2>
+
+      <div class="list">
+        <div class="item">
+          <img src="src/podcast-10.jpeg" />
+          <div class="play">
+            <span class="fa fa-play" onclick="Play()">
+              <audio id="play" ><source src="src/audio/senorita.mp3"type="audio/mp3"></source></audio>
+            </span>
+          </div>
+          <h4>BACK ISSUE</h4>
+          <p>Back Issue reminisces on moments in pop culture’s past that have shaped our present...</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-11.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>MIXED UP</h4>
+          <p>A podcast for mixed race people everywhere and for anyone looking into...</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-12.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>THE CREATIVE EDITION</h4>
+          <p>The Creative Edition Podcast empowers creatives to discover, grow, and own their brand...</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-13.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>DO GO ON</h4>
+          <p>A fact based comedy podcast. Each week Melbourne comedians Matt Stewart, Jess Perkins and Dave Warneke...</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-14.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>THE DAVE CHANG SHOW</h4>
+          <p>Dave Chang has a few questions. Besides being the chef of the Momofuku restaurants and the creator and host of Netflix's...</p>
+        </div>
+        <div class="item">
+          <img src="src/podcast.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>LAST PODCAST ON THE LEFT </h4>
+          <p>The Last Podcast On The Left covers all the horrors our world has to offer both imagined and real...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="spotify-playlists">
+      <h2>Focus</h2>
+      <div class="list">
+
+        <div class="item">
+          <img src="src/podcast-2.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>LIVE FREE CREATIVE</h4>
+          <p>Inspiration and ideas for a creative, adventurous, and intentional lifestyle. Tune in weekly to explore how to apply...</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-3.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>LOVE AAJ KAL</h4>
+          <p>Love Aajkal brings to you a collection of short love stories, full of love, emotion, and adventure. This is a Radio Nasha...</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-4.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>GHOST STORIES</h4>
+          <p>Do you believe in the paranormal?Or, do you think Ghosts are simply a work of fiction? I present to you original ghost stories...</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-5.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>THE SOMETHING SCARY</h4>
+          <p>Do you wanna hear something scary? Join Blair and Steffany every week as they bring you the creepiest ghost stories, urban legends, and folktales...</p>
+        </div>
+        
+        <div class="item">
+          <img src="src/podcast-6.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>HEAVY WEIGHT</h4>
+          <p>Maybe you’ve laid awake imagining how it could have been, how it might yet be, but the moment to act was never right. Well, the moment is here...</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-7.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>JUST SLEEP</h4>
+          <p>Do you have trouble drifting off to sleep? My mission is simple. To help you relax, put the stressful day behind you and drift off to sleep...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="spotify-playlists">
+      <h2>MOOD</h2>
+      <div class="list">
+        <div class="item">
+          <img src="src/podcast-8.jpg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>CHANAYAKA NITI</h4>
+          <p>Chanakya's wise words on how to live life to its full potential...</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-9.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>WHO WE BE TALKS</h4>
+          <p>Join Harry Pinero and Henrie on the official podcast partner to the UK’s biggest Hip-Hop, Afrobeats, Dancehall and RnB playlist celebrating black music and culture....</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-15.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>EMPOWER HER</h4>
+          <p>"EmpowerHER" is all about cutting through the BS fluff to have honest, and entertaining real talk conversations about life, business and relationships...</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-16.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>LET IT BE EASY</h4>
+          <p>World-renowned life coach and author Susie Moore presents the Let It Be Easy with Susie Moore podcast...</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-19.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>SUSPECT</h4>
+          <p>Suspect is an investigative series about mislaid justice and the kinds of weighty decisions that detectives...</p>
+        </div>
+
+        <div class="item">
+          <img src="src/podcast-18.jpeg" />
+          <div class="play">
+            <span class="fa fa-play"></span>
+          </div>
+          <h4>CREATIVE SPIN PODCAST</h4>
+          <p>Welcome to the Creative Spin Podcast channel! I'm your host, Jamie Iria, and this is the place for creative conversations...</p>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <!--<div class="preview">
+      <div class="text">
+        <h6>Preview of Spotify</h6>
+        <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+      </div>
+      <div class="button">
+        <button type="button">Sign up free</button>
+      </div>
+    </div>
+  </div>-->
+
+  <script
+    src="https://kit.fontawesome.com/23cecef777.js"
+    crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript">
+    function Play()
+      {
+        var myAudio = document.getElementById("play");
+        if(myAudio.paused) {
+            myAudio.play();
+        }
+        else {
+           myAudio.pause();
+        }
+      }
+
+
+  </script>
+</body>
+</html>
